@@ -1,6 +1,6 @@
-# Desafio da semana #4
+//# Desafio da semana #4
 
-```js
+//```js
 /*
 Declare uma variável chamada `isTruthy`, e atribua a ela uma função que recebe
 um único parâmetro como argumento. Essa função deve retornar `true` se o
@@ -173,4 +173,4 @@ carro.adicionarPessoa(10);//"Só cabem mais 4 pessoas!!"
 
 // Quantas pessoas temos no carro?
 carro.quantidadePessoas; //1
-```
+//```

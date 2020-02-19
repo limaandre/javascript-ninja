@@ -1,8 +1,8 @@
-# Desafio da semana #2
+/*# Desafio da semana #2
 
 Nesse exercício, você está livre para escolher os nomes para suas variáveis e funções! :smile:
 
-```js
+```js*/
 // Crie uma função que receba dois argumentos e retorne a soma dos mesmos.
 function soma(numUm, numDois) {
     return numUm + numDois;
@@ -69,7 +69,7 @@ Crie uma função com as seguintes características:
 5. Se nenhum argumento for passado, retorne o valor booleano `false`.
 6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
 */
-validaArgumentoDois(argUm, argDois, argTres) {
+function validaArgumentoDois(argUm, argDois, argTres) {
     if(argUm !== undefined && argDois === undefined && argTres === undefined) {
         return argUm;
     } else if(argUm !== undefined && argDois !== undefined && argTres === undefined) {
@@ -84,7 +84,7 @@ validaArgumentoDois(argUm, argDois, argTres) {
 }
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
-?
+//?
 
 validaArgumentoDois(); // false
 validaArgumentoDois(1); // 1
